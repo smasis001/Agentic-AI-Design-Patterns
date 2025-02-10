@@ -32,14 +32,14 @@ def exa_search_tool(search_query: str) -> str:
         highlights=True
     )
 
-    parsedResult = ''.join([
+    parsed_result = ''.join([
       f'<Title id={idx}>{eachResult.title}</Title>'\
       f'<URL id={idx}>{eachResult.url}</URL>'\
       f'<Highlight id={idx}>{"".join(eachResult.highlights)}</Highlight>'\
       for (idx, eachResult) in enumerate(response.results)
     ])
 
-    return parsedResult
+    return parsed_result
 
 # Initialize Tools
 search_tool = exa_search_tool
