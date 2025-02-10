@@ -1,0 +1,8 @@
+.env
+__pycache__/
+.venv
+poetry.lock
+db/
+.git
+article.txt
+crewai_flow.html
