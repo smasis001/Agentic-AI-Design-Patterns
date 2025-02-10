@@ -49,6 +49,15 @@ sudo apt install python3 python-is-python3 git
 
 It is recommended that you open the folder where this repository will be cloned with an IDE like VSCode or PyCharm.
 
+### Create Accounts and Get API keys
+
+- [OpenAI](https://platform.openai.com/)
+- [Anthropic](https://docs.anthropic.com/en/api/getting-started)
+- [Exa](https://exa.ai/)
+- [Serper](https://serper.dev/)
+
+Then, open `.env.example` and store values for each one of the keys and rename file as `.env`.
+
 ### Create Environment
 
 First you need to clone this repository, and then create the environment. You can use `pyenv`, `conda` or whichever one you want but for this example we are using `venv` which is included in `python`.
@@ -77,7 +86,8 @@ pip install -r requirements.txt
 
 ### Run Scripts locally
 
-To run in the command line any of the scripts do as follows:
+To run in the command line any of the scripts do as follows: 
+
 
 ```sh
 python agentic-patterns/0_intro.py
